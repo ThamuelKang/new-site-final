@@ -86,4 +86,31 @@ header.hero {
 section.work {
   display: flex;
 }
+
+@media only screen and (max-width: 1025px) {
+  .main-wrapper {
+    display: block;
+    overflow-y: auto;
+    height: 100vh;
+  }
+
+  main {
+    height: auto;
+  }
+  header.hero {
+    display: block;
+    overflow-y: hidden;
+  }
+
+  .work {
+    display: block;
+    overflow-y: hidden;
+  }
+
+  .illustrator-container {
+    display: block;
+    height: auto;
+    overflow-y: hidden;
+  }
+}
 </style>

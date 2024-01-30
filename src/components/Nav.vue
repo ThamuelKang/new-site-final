@@ -1,7 +1,8 @@
 <template>
     <nav>
         <div class="social-links">
-            <a target="_blank" href="https://gem-stitch-684.notion.site/Case-studies-coming-soon-8d8a72fd1edb44bab2c6a942cf03cace?pvs=4">
+            <a target="_blank"
+                href="https://gem-stitch-684.notion.site/Case-studies-coming-soon-8d8a72fd1edb44bab2c6a942cf03cace?pvs=4">
                 <p class="nav">Case Studies ↗</p>
             </a>
 
@@ -14,7 +15,7 @@
             </a>
         </div>
 
-       
+
         <p class="contact-details">Doodle me a duck and email it at hello[at]samuelkang.com</p>
     </nav>
 </template>
@@ -32,7 +33,7 @@ nav {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: 48px 0 0 0 ;
+    margin: 48px 0 0 0;
 }
 
 
@@ -51,6 +52,13 @@ a:hover {
 
 .contact-details {
     margin: 48px 0 0 0;
+}
+
+@media only screen and (max-width: 1025px) {
+    .social-links {
+        display: flex;
+        gap: 24px;
+    }
 }
 </style>
    
