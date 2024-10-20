@@ -16,7 +16,7 @@
         </div>
 
 
-        <p class="contact-details">Doodle me a duck and email it at hello[at]samuelkang.com</p>
+        <p class="contact-details">Doodle me a duck and email it at samuel.kang.ducks [at] gmail.com</p>
     </nav>
 </template>
 
@@ -27,7 +27,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/variables.scss";
+@import "@/assets/variables.scss";
 
 nav {
     display: flex;
@@ -52,13 +52,43 @@ a:hover {
 
 .contact-details {
     margin: 48px 0 0 0;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    transform: rotate(-5deg);
+    text-align: center;
+    font-style: italic;
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1000px) {
+
+    nav {
+        margin: 0;
+    }
+
     .social-links {
         display: flex;
+        flex-direction: row;
         gap: 24px;
     }
+
+    .contact-details {
+        margin: 0;
+        font-family: 'IBM Plex Mono', monospace;
+        transform: rotate(0);
+        font-weight: 400;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    nav {
+        padding: 0 24px 0 24px;
+        width: 100%;
+    }
+
+    nav>p {
+        display: none;
+    }
+
 }
 </style>
-   

@@ -7,15 +7,18 @@ import router from './router';
 
 <template>
   <main>
+    
     <router-view />
   </main>
 </template>
 
 <style lang="scss" >
-@import './assets/variables.scss';
+@import '@/assets/variables.scss';
+
 
 .name {
   cursor: grab;
+
   height: 24px;
   display: flex;
   justify-content: center;

@@ -1,6 +1,8 @@
 <template>
+  <!-- <Loading v-if="isLoading" /> -->
+
   <div class="main-wrapper">
-    <main id="mainContainerHeight">
+    <main class="main-intro" id="mainContainerHeight">
       <header class="hero">
         <Nav />
         <section class="doodle-container">
@@ -23,29 +25,30 @@
 
 
 <script>
-import Doodle from '../components/Doodle.vue'
-import Project from '../components/Project.vue'
-import Illustration from '../components/Illustration.vue'
-import Nav from '../components/Nav.vue'
-import Header from '../components/Header.vue'
-
+import Loading from '../components/Loading.vue'
+import Doodle from '@/components/Doodle.vue'
+import Project from '@/components/Project.vue'
+import Illustration from '@/components/Illustration.vue'
+import Nav from '@/components/Nav.vue'
+import Header from '@/components/Header.vue'
 
 
 export default {
   components: {
     Project,
+    Loading,
     Doodle,
     Illustration,
     Header,
     Nav
-  }
+  },
 }
 
 </script>
-  
 
-<style lang = "scss" scoped>
-@import "../assets/variables.scss";
+
+<style lang="scss" scoped>
+@import "@/assets/variables.scss";
 
 .illustrator-container {
   display: flex;
@@ -64,8 +67,7 @@ export default {
   grid-template-columns: 1fr 400px;
 }
 
-main {
-  box-sizing: content-box;
+.main-intro {
   overflow: auto;
   height: 100vh;
 }
@@ -87,30 +89,69 @@ section.work {
   display: flex;
 }
 
-@media only screen and (max-width: 1025px) {
+
+@media only screen and (max-width: 1000px) {
   .main-wrapper {
-    display: block;
-    overflow-y: auto;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
-  main {
+  .main-intro {
     height: auto;
-  }
-  header.hero {
-    display: block;
-    overflow-y: hidden;
-  }
-
-  .work {
-    display: block;
     overflow-y: hidden;
   }
 
   .illustrator-container {
-    display: block;
-    height: auto;
     overflow-y: hidden;
+    border-left: 0;
+    height: auto;
   }
+
+  header.hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .illustrator-container {
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .illustrator-container>div {
+    padding: 24px;
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 24px;
+    position: static;
+  }
+
+  section.work {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header.hero {
+    padding: 0;
+    order: 3;
+  }
+
+  .main-intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.work {
+    flex-direction: column;
+  }
+
+  .doodle-container {
+    display: none;
+  }
+
 }
 </style>
