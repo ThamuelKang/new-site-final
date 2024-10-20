@@ -146,8 +146,6 @@ div.doodle-ui {
     border: 1px solid #000;
     cursor: pointer;
     opacity: .48;
-    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.24) inset;
-
 }
 
 .color-swatch.active {
@@ -184,9 +182,6 @@ div.doodle-ui {
     align-content: center;
     opacity: .48;
     border: 1px solid black;
-
-    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.24) inset;
-
 }
 
 .brush-thickness.active {
