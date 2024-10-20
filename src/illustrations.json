@@ -3,31 +3,57 @@
         "id": 1,
         "title": "Duck with pearl earrings",
         "medium": "Procreate",
+<<<<<<< Updated upstream
         "image": "assets/illustrations/pearl.png",
         "small": "assets/illustrations/small/pearl.png"
+=======
+        "image": "../src/assets/illustrations/pearl.png",
+        "small": "../src/assets/illustrations/small/pearl.png"
+
+>>>>>>> Stashed changes
     },
     {
         "id": 2,
         "title": "The Dance (Duck)",
         "medium": "Procreate",
+<<<<<<< Updated upstream
         "image": "assets/illustrations/dance-duck.png",
         "small": "assets/illustrations/small/dance-duck.png"
+=======
+        "image": "../src/assets/illustrations/dance-duck.png",
+        "small": "../src/assets/illustrations/small/dance-duck.png"
+
+>>>>>>> Stashed changes
     },
     {
         "id": 3,
         "title": "Golden Gate Park Painting",
         "medium": "Acrylic paint on wood 8 x 12",
+<<<<<<< Updated upstream
         "image": "assets/illustrations/golden-painting.png",
         "small": "assets/illustrations/small/golden-painting.png"
     },
     {
+=======
+        "image": "../src/assets/illustrations/golden-painting.png",
+        "small": "../src/assets/illustrations/small/golden-painting.png"
+
+    },   {
+>>>>>>> Stashed changes
         "id": 4,
         "title": "This is Fine",
         "medium": "Procreate",
+<<<<<<< Updated upstream
         "image": "assets/illustrations/this-is-fine.png",
         "small": "assets/illustrations/small/this-is-fine.png"
     },
     {
+=======
+        "image": "../src/assets/illustrations/this-is-fine.png",
+        "small": "../src/assets/illustrations/small/this-is-fine.png"
+
+    },   {
+>>>>>>> Stashed changes
         "id": 5,
         "title": "House painting SF",
         "medium": "Illustrator",
@@ -38,6 +64,7 @@
         "id": 6,
         "title": "Indiegogo Shirt Design",
         "medium": "Photoshop, Illustrator",
+<<<<<<< Updated upstream
         "image": "assets/illustrations/indiegogo.png",
         "small": "assets/illustrations/small/indiegogo.png"
     },
@@ -70,6 +97,47 @@
         "small": "assets/illustrations/small/sf-landscape.png"
     },
     {
+=======
+        "image": "../src/assets/illustrations/indiegogo-shirt.png",
+        "small": "../src/assets/illustrations/small/indiegogo-shirt.png"
+
+    },   {
+        "id": 6,
+        "title": "The Kiss (Duck)",
+        "medium": "Procreate, Photoshop",
+        "image": "../src/assets/illustrations/duck-klimt.png",
+        "small": "../src/assets/illustrations/small/duck-klimt.png"
+
+    },   {
+        "id": 7,
+        "title": "Melting Ducks",
+        "medium": "Procreate, Photoshop",
+        "image": "../src/assets/illustrations/fire.png",
+        "small": "../src/assets/illustrations/small/fire.png"
+
+    },   {
+        "id": 8,
+        "title": "Golden Gate Park Painting 2",
+        "medium": "Acrylic on wood. 8 x 12",
+        "image": "../src/assets/illustrations/golden-lake-painting.png",
+        "small": "../src/assets/illustrations/small/golden-lake-painting.png"
+
+    },   {
+        "id": 9,
+        "title": "SF Landscape",
+        "medium": "Acrylic on 3 wood panels – 24 x 24 each",
+        "image": "../src/assets/illustrations/sf-landscape.png",
+        "small": "../src/assets/illustrations/small/sf-landscape.png"
+
+    },   {
+        "id": 10,
+        "title": "Indiegogo Lunar New Year",
+        "medium": "Procreate, Photoshop, Illustrator",
+        "image": "../src/assets/illustrations/indiegogo-CNY.png",
+        "small": "../src/assets/illustrations/small/indiegogo-CNY.png"
+
+    },   {
+>>>>>>> Stashed changes
         "id": 11,
         "title": "Indiegogo Lunar New Year",
         "medium": "Photoshop, Illustrator",
@@ -80,6 +148,7 @@
         "id": 12,
         "title": "Self Portrait",
         "medium": "Procreate",
+<<<<<<< Updated upstream
         "image": "assets/illustrations/self-portrait.png",
         "small": "assets/illustrations/small/self-portrait.png"
     },
@@ -110,5 +179,45 @@
         "medium": "Procreate",
         "image": "assets/illustrations/duck-view.png",
         "small": "assets/illustrations/small/duck-view.png"
+=======
+        "image": "../src/assets/illustrations/self-portrait.png",
+        "small": "../src/assets/illustrations/small/self-portrait.png"
+
+    },   {
+        "id": 12,
+        "title": "Hand Lettering",
+        "medium": "Procreate",
+        "image": "../src/assets/illustrations/fun-lettering.png",
+        "small": "../src/assets/illustrations/small/fun-lettering.png"
+
+    },   {
+        "id": 13,
+        "title": "Eyes on Ducks",
+        "medium": "Procreate",
+        "image": "../src/assets/illustrations/eyes-duck.png",
+        "small": "../src/assets/illustrations/small/eyes-duck.png"
+
+    },   {
+        "id": 14,
+        "title": "Dreamy",
+        "medium": "Procreate",
+        "image": "../src/assets/illustrations/dreamy.png",
+        "small": "../src/assets/illustrations/small/dreamy.png"
+
+    },   {
+        "id": 15,
+        "title": "What a view (Duck)",
+        "medium": "Procreate",
+        "image": "../src/assets/illustrations/duck-view.png",
+        "small": "../src/assets/illustrations/small/duck-view.png"
+
+    },   {
+        "id": 16,
+        "title": "Survival of the Prettiest pt. 3",
+        "medium": "Acrylic on wood. 16 x 24",
+        "image": "../src/assets/illustrations/survival-painting.png",
+        "small": "../src/assets/illustrations/small/survival-painting.png"
+
+>>>>>>> Stashed changes
     }
 ]
