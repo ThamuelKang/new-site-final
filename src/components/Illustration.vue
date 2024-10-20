@@ -2,12 +2,8 @@
     <div>
         <div class="work" v-for="illustration in illustrations" :key="illustration.id">
             <button class="work" @click="selectIllustration(illustration)">
-<<<<<<< Updated upstream
                 <img loading="lazy" decoding="async" :src="illustration.small" alt="Project image"
                     class="project-image">
-=======
-                <img loading="lazy" :src="illustration.small" alt="Project image" class="project-image">
->>>>>>> Stashed changes
                 <div class="project">
                     <h3>{{ illustration.title }}</h3>
                     <p>{{ illustration.medium }}</p>
@@ -15,11 +11,7 @@
             </button>
         </div>
 
-<<<<<<< Updated upstream
         <teleport to="#modal"  v-if="modal">
-=======
-        <teleport to="#modal" v-if="modal">
->>>>>>> Stashed changes
             <div class="modal">
                 <div class="modal-container">
                     <button class="close-button" @click="closeModal"><img src="@/assets/icons/close.svg"
